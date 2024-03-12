@@ -1,0 +1,132 @@
+@charset "utf-8";
+.sect1 {
+	background: #000000;
+	padding: 90px 0;
+	color: #fff;
+}
+.sect1 .container{
+	display: flex;
+	align-items: center;
+}
+.sect1 .pic{
+	width: 50%;
+	order:2;
+}
+.sect1 .text-box{
+	width: 50%;
+	letter-spacing: 0;
+
+}
+.sect1 .text-box .text{
+	line-height: 1.5;
+	font-size: 18px;
+}
+.sect1 .sub-title{
+	margin: 0 0 20px;
+	font-size: 72px;
+	font-weight: 900;
+}
+.sect2{
+	background: #FFFFFF;
+	padding:100px 0;
+}
+.sect2 .container{
+	display: flex;
+	align-items: center;
+}
+.sect2 .pic{
+	width: 50%;
+}
+.sect2 .text-box{
+	width: 50%;
+	letter-spacing: 0;
+	padding-left: 60px;
+
+}
+.sect2 .sub-title{
+	margin: 0 0 10px;
+	font-weight: 900;
+}
+.sect2 .btn1{
+	margin-top: 40px;
+}
+.products-box {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px 7px;
+}
+.products-box .item{
+	width: 50%;
+	margin-bottom: 14px;
+	text-align: center;
+	color: #000000;
+	padding: 0 7px;
+}
+.products-box .item .name{
+	font-size: 42px;
+	font-weight: bold;
+	margin:  0 0 10px;
+	line-height: 1;
+}
+.products-box .item .tag{
+	font-weight: 500;
+	font-size: 21px;
+	display: block;
+	margin-bottom: 20px;
+}	
+.products-box .item .box{
+	position: relative;
+	background: #FFFFFF;
+	padding:55px 0px 26px;
+}
+.products-box .item:nth-child(4n+3) .box{
+	background: #eee;
+}
+.products-box .item:nth-child(4n+2) .box{
+	background: #eee;
+}
+.products-box .item:nth-child(4n+1) .box{
+	background: #eee;
+}
+.products-box .item:nth-child(4n) .box{
+	background: #eee;
+}
+.products-box .item .box .cover{
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+@media screen and (max-width: 1440px){
+
+	.sect1 .sub-title{
+		font-size: 42px;
+	}
+	
+}
+@media screen and (max-width: 1024px){
+	.sect1 .sub-title{
+		font-size: 28px;
+	}
+	.sect1 .container,
+	.sect2 .container{
+		flex-wrap: wrap;
+	}
+	.sect1 .text-box,.sect1 .pic,
+	.sect2 .pic,.sect2 .text-box{
+		width: 100%;
+		padding: 0;
+	}
+	.sect2 .text-box,.sect1 .text-box{
+		order: 2
+	}
+	.products-box .item .name{
+		font-size: 22px;
+	}
+	.products-box .item .tag{
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icon-font';
+  src:  url('fonts/icon-font.eot?ib3j1b');
+  src:  url('fonts/icon-font.eot?ib3j1b#iefix') format('embedded-opentype'),
+    url('fonts/icon-font.ttf?ib3j1b') format('truetype'),
+    url('fonts/icon-font.woff?ib3j1b') format('woff'),
+    url('fonts/icon-font.svg?ib3j1b#icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic-earth:before {
+  content: "\e2000";
+}
+.icon-ic-youtube:before {
+  content: "\e2001";
+}
+.icon-ic-youtube2:before {
+  content: "\e2002";
+}
+.icon-ic-onedrive:before {
+  content: "\e2003";
+}
+.icon-ic-keyword:before {
+  content: "\e2004";
+}
+.icon-ic-sharepinterest:before {
+  content: "\e2005";
+}
+.icon-ic-shareplurk:before {
+  content: "\e2006";
+}
+.icon-ic-share-fb:before {
+  content: "\e2007";
+}
+.icon-ic-share-google:before {
+  content: "\e2008";
+}
+.icon-ic-share-in:before {
+  content: "\e2009";
+}
+.icon-ic-share-line:before {
+  content: "\e2010";
+}
+.icon-ic-share-linecall:before {
+  content: "\e2011";
+}
+.icon-ic-share-mail:before {
+  content: "\e2012";
+}
+.icon-ic-share-t:before {
+  content: "\e2013";
+}
+.icon-ic-share-twitter:before {
+  content: "\e2014";
+}
+.icon-ic-share-w:before {
+  content: "\e2015";
+}
+.icon-ic-share-blog:before {
+  content: "\e2016";
+}
+

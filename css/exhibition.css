@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.sect1{
+	background: url(../images/exhibition/bg.jpg);
+	background-size: cover;
+	padding:26px 0 50px;
+	color: #fff;
+	text-align: center; 
+}
+.sect1 .sub-title{
+	margin: 20px 0 30px;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 1;
+}
+.sect1 .text{
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+
+.sect2{
+	padding-top: 100px;
+	padding-bottom: 166px;
+}
+.sect2 .ex_box{
+	background: #FFFFFF;
+	color: #212121;
+	padding: 55px;
+	display: flex;
+	margin-bottom: 28px;
+	align-items: center;
+}
+.sect2 .ex_box img,.sect2 .ex_box .text-box{
+	width: 50%;
+}
+.sect2 .ex_box .text-box{
+	padding:30px 60px;
+}
+.sect2 .ex_box:nth-child(odd){
+	background: #000000;
+	color: #fff
+}
+.sect2 .ex_box:nth-child(even) img{
+	order:2;
+}
+.sect2 .ex_box .sub-title{
+	margin: 0 0 15px;
+	line-height: 1.1;
+}
+.sect2 .ex_box .text{
+	line-height: 1.25;
+	margin-bottom: 20px;
+}
+
+.sect-detail{
+	padding-top: 90px;
+	padding-bottom: 110px;
+	background: #fff;
+}
+.btn-box{
+	text-align: center;
+}
+.btn-box .back{
+	margin-top: 0;
+}
+@media screen and (max-width: 1440px){
+	.sect1 .sub-title{
+		font-size: 42px;
+	}
+	
+
+}
+@media screen and (max-width: 1024px){
+	.sect1 .sub-title{
+		font-size: 42px;
+	}
+	.sect2 .ex_box{
+		flex-wrap: wrap;
+		padding: 30px;
+	}
+	.sect2 .ex_box img, .sect2 .ex_box .text-box{
+		width: 100%;
+	}
+	.sect2 .ex_box .text-box{
+		padding: 20px 0;
+	}
+	.sect2 .ex_box:nth-child(even) img{
+		order:-1;
+	}
+
+	.sect2{
+		padding-bottom: 100px;
+	}
+	
+
+}

@@ -1,0 +1,102 @@
+.banner .box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+
+}
+.form-group{
+	display: flex;
+	width: 458px;
+	max-width: 100%;
+	align-items: center;
+}
+.form-group .control-label{
+	font-size: 18px;
+	font-weight: 500;
+	min-width: 138px;
+	letter-spacing: 0;
+	margin-right: 5px;
+}
+.form-group .form-control{
+	margin-bottom: 0;
+}
+.solutions-list{
+	margin: 0 -12px;
+}
+.solutions-list .item{
+	width: 33.33%;
+	padding:0 12px;
+}
+.solutions-list .item:nth-child(3n+1){
+	clear: both;
+}
+.solutions-list .item .box {
+	position: relative;
+	margin-bottom: 150px;
+}
+.solutions-list .item .box .bg{
+	background: #FFFFFF;
+	padding: 40px;
+	text-align: center;
+	color: #000000;
+}
+.solutions-list .item .box .title{
+	font-weight: 900;
+	font-size: 48px;
+	margin: 0 0 0;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.solutions-list .item .box .name{
+	font-weight: 300;
+	font-size: 24px;
+	margin: 0 0 70px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.solutions-list .item .box .tag{
+	font-weight: 500;
+	font-size: 16px;
+	display: block;
+	margin-top: 40px;
+}
+.solutions-list .item .box .description{
+	font-size: 18px;
+	color: #1F1F1F;
+	margin-top: 30px;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: inherit;
+    height: 52px;
+}
+.solutions-list .item .cover{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 30;
+	font-size: 0;
+}
+
+@media screen and (max-width: 1024px){
+	.sect-detail2 .sub-title{
+		margin-bottom: 60px;
+	}
+	.solutions-list .item{
+		width: 100%;
+	}
+	.solutions-list .item .box{
+		margin-bottom: 70px;
+	}
+	.form-group{
+		display: block;
+		margin-top: 20px;
+	}
+
+}

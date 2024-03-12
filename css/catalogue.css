@@ -1,0 +1,125 @@
+@charset "utf-8";
+.sect1{
+	background: #FFFFFF;
+	position: relative;
+	padding:36px 0 108px;
+}
+.slick-arrow{
+	font-size: 0;
+	width: 50px;
+	height: 50px;
+	background: url(../images/arrow.png);
+	border:none;
+	position: absolute;
+	top: 40%;
+	margin-top: -25px;
+	z-index: 60;
+
+}
+.slick-arrow.prev{
+	background-position: left;
+	left: 36px;
+
+}
+.slick-arrow.next{
+	background-position: right;
+	right: 36px;
+}
+
+.catalogues-list{
+	margin: 0 -7px 30px;
+}
+.catalogues-list .item{
+	padding: 0 7px;
+}
+
+.catalogues-list .item .box{
+	position: relative;
+	margin:0 auto 0px;
+}
+.catalogues-list .item .box .pic:before{
+	content: '';
+	display: block;
+	background: url(../images/catalogue/ic.png);
+	width: 101px;
+	height: 100px;
+	left: 0;
+	right: 0;
+	position: absolute;
+	opacity: 0;
+	z-index: 6;
+    margin: auto;
+    transition: ease all .3s;
+	bottom: 80px;
+}
+.catalogues-list .item .box:hover .pic:before{
+	opacity: 1;
+	bottom: 40px;
+
+}
+.catalogues-list .item .name{
+	font-size: 24px;
+	font-weight: 500;
+	color: #000000;
+	padding-top: 6px;
+	margin: 0;
+}
+.catalogues-list .item .pic{
+	overflow: hidden;
+	position: relative;
+}
+.catalogues-list .item .pic img{
+	width: 100%;
+}
+
+.catalogues-list .item:hover .box .pic:before{
+	opacity: 1;
+}
+.catalogues-list .item .pic img{
+	-webkit-transition: all 0.3s ease-out 125ms;
+    -moz-transition: all 0.3s ease-out 125ms;
+    -ms-transition: all 0.3s ease-out 125ms;
+    -o-transition: all 0.3s ease-out 125ms;
+    transition: all 0.3s ease-out 125ms;
+}
+
+.catalogues-list .item .cover{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 30;
+	font-size: 0;
+}
+
+
+
+@media screen and (max-width: 1440px){
+	.catalogues-list .item .name{
+		font-size: 20px;
+	}
+	.catalogues-list .item .box .pic:before{
+		width: 81px;
+		height: 80px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.catalogues-list .item{
+		width: 50%;
+	}
+	.catalogues-list{
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	.catalogues-list .item .box .pic:before{
+		width: 61px;
+		height: 60px;
+	
+	}
+
+
+}
