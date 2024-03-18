@@ -20,6 +20,10 @@
   padding-top: 100px;
   padding-bottom: 36px;
 }
+.sect4{
+  padding-top: 13px;
+}
+
 
 .sect2 .ex_box {
   background: #ffffff;
@@ -164,14 +168,15 @@
 .sect3.news-sect .container .item .text-box h3 {
   margin-top: 0;
   font-size: 36px;
+  margin-bottom: 15px;
 }
 @media screen and (max-width: 1024px) {
   .sect3.news-sect .container .item .text-box h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 .sect3.news-sect .container .item .text-box .text {
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 1024px) {
@@ -184,6 +189,6 @@
 }
 @media screen and (max-width: 1024px) {
   .sect3.news-sect .container .item .text-box .btn {
-    font-size: 22px;
+    font-size: 18px;
   }
 }/*# sourceMappingURL=news.css.map */

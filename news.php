@@ -95,6 +95,74 @@
 
       </div>
     </section>
+    
+    <section class="sect sect2 sect4">
+      <div class="container">
+        <div class="ex_box">
+          <img src="images/news/img2.png" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into </h3>
+            <div class="text">
+              For your own benefit, we would like to urge our customers and users buying AUTO STRONG products from official signed distributors.
+            </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+        <div class="ex_box">
+          <img src="images/news/img3.jpg" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into the vast universe vast universe.</h3>
+            <div class="text">
+              Form follows function.This idea shows the advantages of production management and creates high-end boutique concepts of hydraulic chucks and hydraulic cylinders. ...
+            </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sect sect3 news-sect">
+      <div class="container">
+
+        <div class="item">
+          <img src="images/news/img3.jpg" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into the vast universe vast universe.</h3>
+            <div class="text">
+              Form follows function.This idea shows the advantages of production management and creates high-end boutique concepts of hydraulic chucks and hydraulic cylinders. ...
+            </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/news/img3.jpg" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into the vast universe vast universe.</h3>
+            <div class="text">
+              Form follows function.This idea shows the advantages of production management and creates high-end boutique concepts of hydraulic chucks and hydraulic cylinders. ...
+            </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    
+    <section class="pageBox wow fadeInUp" data-wow-delay="0.2s">
+              <div class="container">
+                <ul class="pagination">
+                  <li class="controls"><a class="prev" href="#" title="Previous"></a></li>
+                  <li><a href="#">01</a></li>
+                  <li><a href="#">02</a></li>
+                  <li class="active"><a href="#">03</a></li>
+                  <li><a href="#">04</a></li>
+                  <li><a href="#">05</a></li>
+                  <li class="controls"><a class="next" href="#" title="Next"></a></li>
+                </ul>
+              </div>
+            </section>
 
     <div class="breadcrumb-box">
       <div class="container">

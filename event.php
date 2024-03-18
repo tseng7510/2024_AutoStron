@@ -66,94 +66,100 @@
         </div>
       </div>
     </section>
+
     <section class="sect sect3 news-sect">
-      <button type="button" class="slick-arrow prev">Previous</button>
-      <button type="button" class="slick-arrow next">Next</button>
       <div class="container">
-        <div class="out">
-          <div class="news-box">
-            <div class="item wow fadeIn" data-wow-delay="0s">
-              <div class="box">
-                <div class="pic">
-                  <img src="images/index/news1.jpg" alt="">
-                </div>
-                <div class="text">
-                  <time class="date">2022/3/9</time>
-                  <h2 class="name">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</h2>
-                  <div class="desc">Auto Strong mainly manufactured various high-precision hydraulic chuck, scroll chuck, collet chuck, pneumatic chuck, and hydraulic cylinder,It is generally application for machines that need to fix or clamp workpieces.</div>
-                </div>
-                <a href="event_detail.php" class="cover" title="The MM1552B High speed and compact through-hole rotary hydraulic cylinder" alt="The MM1552B High speed and compact through-hole rotary hydraulic cylinder">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</a>
-              </div>
+
+        <div class="item">
+          <img src="images/news/img3.jpg" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into the vast universe vast universe.</h3>
+            <div class="text">
+              Form follows function.This idea shows the advantages of production management and creates high-end boutique concepts of hydraulic chucks and hydraulic cylinders. ...
             </div>
-            <div class="item wow fadeIn" data-wow-delay="0.2s">
-              <div class="box">
-                <div class="pic">
-                  <img src="images/index/news2.jpg" alt="">
-                </div>
-                <div class="text">
-                  <time class="date">2022/3/9</time>
-                  <h2 class="name">Predominating the opportunity go forward to Vietnam and overall arrangement Southeast Asian markets successfully</h2>
-                  <div class="desc">The international market is unpredictable. Recently, the influence of trade war between US and China has accelerated Di Chun Iron Work Co.,LTD to layout southward market.</div>
-                </div>
-                <a href="event_detail.php" class="cover" title="Predominating the opportunity go forward to Vietnam and overall arrangement Southeast Asian markets successfully" alt="Predominating the opportunity go forward to Vietnam and overall arrangement Southeast Asian markets successfully">Predominating the opportunity go forward to Vietnam and overall arrangement Southeast Asian markets successfully</a>
-              </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/news/img3.jpg" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into the vast universe vast universe.</h3>
+            <div class="text">
+              Form follows function.This idea shows the advantages of production management and creates high-end boutique concepts of hydraulic chucks and hydraulic cylinders. ...
             </div>
-            <div class="item wow fadeIn" data-wow-delay="0.4s">
-              <div class="box">
-                <div class="pic">
-                  <img src="images/index/news3.jpg" alt="">
-                </div>
-                <div class="text">
-                  <time class="date">2022/3/9</time>
-                  <h2 class="name">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</h2>
-                  <div class="desc">The international market is unpredictable. Recently, the influence of trade war between US and China has accelerated Di Chun Iron Work Co.,LTD to layout southward market.</div>
-                </div>
-                <a href="event_detail.php" class="cover" title="The MM1552B High speed and compact through-hole rotary hydraulic cylinder" alt="The MM1552B High speed and compact through-hole rotary hydraulic cylinder">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</a>
-              </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+    </section>
+    <section class="sect sect2 sect4">
+      <div class="container">
+        <div class="ex_box">
+          <img src="images/news/img2.png" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into </h3>
+            <div class="text">
+              For your own benefit, we would like to urge our customers and users buying AUTO STRONG products from official signed distributors.
             </div>
-            <div class="item wow fadeIn" data-wow-delay="0.6s">
-              <div class="box">
-                <div class="pic">
-                  <img src="images/index/news3.jpg" alt="">
-                </div>
-                <div class="text">
-                  <time class="date">2022/3/9</time>
-                  <h2 class="name">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</h2>
-                  <div class="desc">The international market is unpredictable. Recently, the influence of trade war between US and China has accelerated Di Chun Iron Work Co.,LTD to layout southward market.</div>
-                </div>
-                <a href="event_detail.php" class="cover" title="The MM1552B High speed and compact through-hole rotary hydraulic cylinder" alt="The MM1552B High speed and compact through-hole rotary hydraulic cylinder">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</a>
-              </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+        <div class="ex_box">
+          <img src="images/news/img3.jpg" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into the vast universe vast universe.</h3>
+            <div class="text">
+              Form follows function.This idea shows the advantages of production management and creates high-end boutique concepts of hydraulic chucks and hydraulic cylinders. ...
             </div>
-            <div class="item wow fadeIn" data-wow-delay="0.8s">
-              <div class="box">
-                <div class="pic">
-                  <img src="images/index/news3.jpg" alt="">
-                </div>
-                <div class="text">
-                  <time class="date">2022/3/9</time>
-                  <h2 class="name">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</h2>
-                  <div class="desc">The international market is unpredictable. Recently, the influence of trade war between US and China has accelerated Di Chun Iron Work Co.,LTD to layout southward market.</div>
-                </div>
-                <a href="event_detail.php" class="cover" title="The MM1552B High speed and compact through-hole rotary hydraulic cylinder" alt="The MM1552B High speed and compact through-hole rotary hydraulic cylinder">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</a>
-              </div>
-            </div>
-            <div class="item wow fadeIn" data-wow-delay="1s">
-              <div class="box">
-                <div class="pic">
-                  <img src="images/index/news3.jpg" alt="">
-                </div>
-                <div class="text">
-                  <time class="date">2022/3/9</time>
-                  <h2 class="name">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</h2>
-                  <div class="desc">The international market is unpredictable. Recently, the influence of trade war between US and China has accelerated Di Chun Iron Work Co.,LTD to layout southward market.</div>
-                </div>
-                <a href="event_detail.php" class="cover" title="The MM1552B High speed and compact through-hole rotary hydraulic cylinder" alt="The MM1552B High speed and compact through-hole rotary hydraulic cylinder">The MM1552B High speed and compact through-hole rotary hydraulic cylinder</a>
-              </div>
-            </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="sect sect3 news-sect">
+      <div class="container">
+
+        <div class="item">
+          <img src="images/news/img3.jpg" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into the vast universe vast universe.</h3>
+            <div class="text">
+              Form follows function.This idea shows the advantages of production management and creates high-end boutique concepts of hydraulic chucks and hydraulic cylinders. ...
+            </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/news/img3.jpg" alt="">
+          <div class="text-box wow fadeInUp" data-wow-delay="0s">
+            <h3 class="sub-title">The rocket lifts off into the vast universe vast universe.</h3>
+            <div class="text">
+              Form follows function.This idea shows the advantages of production management and creates high-end boutique concepts of hydraulic chucks and hydraulic cylinders. ...
+            </div>
+            <a href="news_detail.php" class="btn btn1">Learn more >></a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    
+        <section class="pageBox wow fadeInUp" data-wow-delay="0.2s">
+              <div class="container">
+                <ul class="pagination">
+                  <li class="controls"><a class="prev" href="#" title="Previous"></a></li>
+                  <li><a href="#">01</a></li>
+                  <li><a href="#">02</a></li>
+                  <li class="active"><a href="#">03</a></li>
+                  <li><a href="#">04</a></li>
+                  <li><a href="#">05</a></li>
+                  <li class="controls"><a class="next" href="#" title="Next"></a></li>
+                </ul>
+              </div>
+            </section>
+
     <div class="breadcrumb-box">
       <div class="container">
         <ol class="breadcrumb list-inline" itemscope="" itemtype="https://schema.org/BreadcrumbList">
