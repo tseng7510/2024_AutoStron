@@ -1607,6 +1607,12 @@ input[type='checkbox'] {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 800px) {
+  .banner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 500px) {
   .banner-title {
     font-size: 30px;
