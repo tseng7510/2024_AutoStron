@@ -34,6 +34,9 @@
             <div class="swiper" data-swiper="reviews">
               <div class="swiper-wrapper">
                 <div class="swiper-slide slide--reviews-numb">
+                  <div class="year">2014</div>
+                </div>
+                <div class="swiper-slide slide--reviews-numb">
                   <div class="year">2013</div>
                 </div>
                 <div class="swiper-slide slide--reviews-numb">
@@ -56,6 +59,18 @@
 
           <div data-swiper="reviews2" class="swiper swiper--reviews">
             <div class="swiper-wrapper">
+              <div class="swiper-slide slide--reviews">
+                <div class="layout-grid grid timeline2">
+                  <div class="timeline_col pic">
+                    <img src="images/history/ic.png" alt="">
+                  </div>
+                  <div class="timeline_col text-box">
+                    <div class="text">
+                      2014 Researched and developed: PB-ES600-275 pneumatic power chucks and MR250 Non through-hole compact rotary hydraulic cylinders.
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="swiper-slide slide--reviews">
                 <div class="layout-grid grid timeline2">
                   <div class="timeline_col pic">
@@ -125,18 +140,6 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script>
     $(function() {
-      var swiper = new Swiper("[data-swiper=reviews]", {
-        slidesPerView: 1,
-        speed: 1000,
-        spaceBetween: 30,
-        allowTouchMove: true,
-        breakpoints: {
-          1001: {
-            spaceBetween: 200,
-            allowTouchMove: false,
-          },
-        }
-      });
       var swiper2 = new Swiper('[data-swiper=reviews2]', {
         slidesPerView: 1,
         spaceBetween: 0,
@@ -149,38 +152,57 @@
           },
         }
       });
-      swiper2.slideTo(2, 0);
+      var swiper = new Swiper("[data-swiper=reviews]", {
+        slidesPerView: 1,
+        speed: 1000,
+        spaceBetween: 30,
+        allowTouchMove: true,
+        breakpoints: {
+          1001: {
+            spaceBetween: 200,
+            allowTouchMove: false,
+          },
+        },
+        controller: {
+          control: swiper2,
+        }
+      });
 
+      const swiperBox = document.querySelector('.sect-timeline');
+      const count = document.querySelectorAll('.timeLine .swiper-slide').length;
+      const blockHeight = 100 * count;
       $(window).on("load resize", function() {
+
         if (window.innerWidth <= 1000) {
           swiper.slideTo(0, 0);
           swiper2.slideTo(0, 0);
-          swiper.controller.control = swiper2;
-          swiper2.controller.control = swiper;
+          swiperBox.removeAttribute('style');
         } else {
-          swiper.controller.control = null;
-          swiper2.controller.control = null;
+          swiperBox.style.height = blockHeight + 'vh';
         }
+        swiper.controller.control = swiper2;
+        swiper2.controller.control = swiper;
       })
+
+      const heightCheck = [];
+
+      for (let i = 0; i < count; i++) {
+        heightCheck.push({
+          min: Math.round((swiperBox.clientHeight / count) * i),
+          max: Math.round((swiperBox.clientHeight / count) * (i + 1))
+        });
+      }
 
       $(window).scroll(function() {
         if (window.innerWidth >= 1000) {
-          let offset = $(".sect-timeline")[0].getBoundingClientRect();
-          if (offset.top < 0 && offset.bottom - window.innerHeight > 0) {
-            let perc = Math.round(100 * Math.abs(offset.top) / (offset.height - $(window).height()));
+          let timeBoxOffset = $(".sect-timeline")[0].getBoundingClientRect();
+          if (timeBoxOffset.top < 0 && timeBoxOffset.bottom - window.innerHeight > 0) {
 
-            if (perc > 10 && perc < 30) {
-              swiper.slideTo(0, 1000);
-              swiper2.slideTo(2, 1000);
-            } else if (perc > 30 && perc < 55) {
-              swiper.slideTo(1, 1000);
-              swiper2.slideTo(1, 1000);
-
-            } else if (perc > 70) {
-              swiper.slideTo(2, 1000);
-              swiper2.slideTo(0, 1000);
-
-            }
+            heightCheck.forEach((item, index) => {
+              if (timeBoxOffset.top * -1 > item.min && timeBoxOffset.top * -1 < item.max) {
+                swiper.slideTo(index, 1000);
+              }
+            })
           }
         }
       });
