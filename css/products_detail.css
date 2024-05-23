@@ -22,6 +22,12 @@
 .top_product .pic {
   width: 50%;
 }
+.top_product .pic img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: contain;
+  aspect-ratio: 700/467;
+}
 .top_product .text_box {
   color: #aaaaaa;
   font-size: 21px;
@@ -154,14 +160,14 @@ td {
   z-index: 60;
 }
 @media screen and (max-width: 1024px) {
-.bar {
-  position: sticky;
-  left: 0;
-  right: 0;
-  top: 50px;
-  transition: all ease 0.3s;
-  z-index: 60;
-}
+  .bar {
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 50px;
+    transition: all ease 0.3s;
+    z-index: 60;
+  }
 }
 .bar.fixed {
   /*position: fixed;*/
@@ -170,12 +176,12 @@ td {
   top: 80px;
 }
 @media screen and (max-width: 1024px) {
-.bar.fixed {
-  /*position: fixed;*/
-  left: 0;
-  right: 0;
-  top: 50px;
-}
+  .bar.fixed {
+    /*position: fixed;*/
+    left: 0;
+    right: 0;
+    top: 50px;
+  }
 }
 @media screen and (max-width: 1440px) {
 }
