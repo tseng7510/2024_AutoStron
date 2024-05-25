@@ -72,6 +72,7 @@
 } */
 .solutions-list .item .box {
   position: relative;
+  height: 100%;
   /* margin-bottom: 30px; */
 }
 .solutions-list .item .box .bg {
@@ -79,6 +80,12 @@
   padding: 40px;
   text-align: center;
   color: #000000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.solutions-list .item .box .bg .pic {
+  margin: auto 0 0;
 }
 .solutions-list .item .box .bg .pic img {
   width: 100%;
@@ -106,7 +113,7 @@
   font-weight: 500;
   font-size: 16px;
   display: block;
-  margin-top: 40px;
+  margin: 40px 0 0;
 }
 .solutions-list .item .box .description {
   font-size: 18px;
