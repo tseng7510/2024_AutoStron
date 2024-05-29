@@ -1,95 +1,94 @@
 @charset "utf-8";
-.detail-title{
-	max-width: 1150px;
-	text-align: left;
+.detail-title {
+  max-width: 1150px;
+  text-align: left;
 }
-.sect1 .award-box{
-	display: flex;
-	align-items: center;
+.sect1 .award-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.award-box .sub-title{
-	margin: 0 0 20px;
+.award-box .sub-title {
+  margin: 0 0 20px;
 }
-.award-box .text{
-	font-size: 24px;
-	color: #1F1F1F;
-	max-width: 650px;
+.award-box .text {
+  font-size: 24px;
+  color: #1f1f1f;
+  max-width: 650px;
 }
-.award-box .text-box{
-	padding:120px 0 0 120px;
-	position: relative;
+.award-box .text-box {
+  padding: 120px 0 0 120px;
+  position: relative;
 }
-.award-sect{
-	padding:15px 0;
+.award-sect {
+  padding: 15px 0;
 }
-.award-sect:nth-child(odd){
-	background: #fff;
+.award-sect:nth-child(odd) {
+  background: #fff;
 }
-.award-sect:nth-child(even) .text-box{
-	padding:120px 120px 0 0;
+.award-sect:nth-child(even) .text-box {
+  padding: 120px 120px 0 0;
 }
-.award-box .pic{
-	width: 445px;
+.award-box .pic {
+  width: 445px;
 }
 
-.award-sect:nth-child(even) .pic{
-	order: 2
+.award-sect:nth-child(even) .pic {
+  order: 2;
 }
-.award-box .btn.btn1{
-	color: #000000;
-	font-size: 28px;
-	font-weight: 500;
-	display: inline-block;
-	margin-top: 20px;
-	letter-spacing: 3px;
+.award-box .btn.btn1 {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 20px;
+  letter-spacing: 3px;
 }
 
 /*detail*/
-.detail-box{
-	display: flex;
-	justify-content: space-between;
+.detail-box {
+  display: flex;
+  justify-content: space-between;
 }
-.detail-box .pic{
-	width: 400px;
-	margin-left: 85px;
+.detail-box .pic {
+  width: 400px;
+  margin-left: 85px;
 }
-.detail-box .text-box{
-	width: 867px;
-	letter-spacing: 0;
-	line-height: 1.7;
+.detail-box .text-box {
+  width: 867px;
+  letter-spacing: 0;
+  line-height: 1.7;
 }
-.sect-detail{
-	background: #fff;
-	padding:88px 0 120px;
+.sect-detail {
+  background: #fff;
+  padding: 88px 0 120px;
 }
 
+@media screen and (max-width: 1024px) {
+  .sect1 .award-box {
+    display: block;
+  }
+  .award-box .text-box,
+  .award-sect:nth-child(even) .text-box {
+    padding: 50px 0;
+  }
 
-
-@media screen and (max-width: 1024px){
-	.sect1 .award-box{
-		display: block;
-	}
-	.award-box .text-box,
-	.award-sect:nth-child(even) .text-box{
-		padding:50px 0;
-	}
-	
-	.award-box .text{
-		font-size: 20px;
-	}
-	.award-box .btn.btn1{
-		font-size: 22px;
-	}
-	.detail-box{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.detail-box .text-box{
-		width: 100%;
-		order: 2
-	}
-	.detail-box .pic{
-		width: 100%;
-		margin:20px 0;
-	}
+  .award-box .text {
+    font-size: 20px;
+  }
+  .award-box .btn.btn1 {
+    font-size: 22px;
+  }
+  .detail-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .detail-box .text-box {
+    width: 100%;
+    order: 2;
+  }
+  .detail-box .pic {
+    width: 100%;
+    margin: 20px 0;
+  }
 }
